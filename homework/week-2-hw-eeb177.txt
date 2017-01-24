@@ -1,157 +1,181 @@
+Question 1
 Rodentia
 Rodentia
 Rodentia
 Macroscelidea
 Rodentia
-      9 Abrocomidae
-      2 Acrobatidae
-      1 Ailuridae
-      7 Anomaluridae
-      1 Antilocapridae
-     11 Aotidae
-      1 Aplodontiidae
-     28 Atelidae
-      4 Balaenidae
-      8 Balaenopteridae
-     15 Bathyergidae
-    136 Bovidae
-      4 Bradypodidae
-      5 Burramyidae
-      6 Caenolestidae
-     42 Callitrichidae
-      8 Calomyscidae
-      3 Camelidae
-     35 Canidae
-     13 Capromyidae
-      2 Castoridae
-     18 Caviidae
-     17 Cebidae
-    123 Cercopithecidae
-     54 Cervidae
-     29 Cheirogaleidae
-      6 Chinchillidae
-     21 Chrysochloridae
-      1 Craseonycteridae
-    684 Cricetidae
-      5 Ctenodactylidae
-     60 Ctenomyidae
-      2 Cuniculidae
-      1 Cyclopedidae
-      2 Cynocephalidae
-     21 Dasypodidae
-     13 Dasyproctidae
-     72 Dasyuridae
-      1 Daubentoniidae
-     41 Delphinidae
-      1 Diatomyidae
-     94 Didelphidae
-      1 Dinomyidae
-     50 Dipodidae
-      1 Dugongidae
-      2 Echimydae
-     84 Echimyidae
-      2 Elephantidae
-     52 Emballonuridae
-      7 Equidae
-     18 Erethizontidae
-     24 Erinaceidae
-      1 Eschrichtiidae
-      8 Eupleridae
-     36 Felidae
-      2 Furipteridae
-     18 Galagidae
-     39 Geomyidae
-      2 Giraffidae
-     28 Gliridae
-     34 Herpestidae
-     62 Heteromyidae
-      2 Hippopotamidae
-     84 Hipposideridae
-      6 Hominidae
-      4 Hyaenidae
-     16 Hylobatidae
-      1 Hypsiprymnodontidae
-     11 Hystricidae
-     18 Indriidae
-      3 Iniidae
-     22 Lemuridae
-     24 Lepilemuridae
-     62 Leporidae
-     10 Lorisidae
-     63 Macropodidae
-     17 Macroscelididae
-      8 Manidae
-      5 Megadermatidae
-      2 Megalonychidae
-     12 Mephitidae
-      1 Microbiotheriidae
-    100 Molossidae
-      2 Monodontidae
-      9 Mormoopidae
-      7 Moschidae
-    701 Muridae
-     58 Mustelidae
-      1 Myocastoridae
-      1 Myrmecobiidae
-      3 Myrmecophagidae
-      2 Mystacinidae
-      2 Myzopodidae
-      1 Nandiniidae
-     11 Natalidae
-      1 Neobalaenidae
-     59 Nesomyidae
-      2 Noctilionidae
-      2 Notoryctidae
-     16 Nycteridae
-     30 Ochotonidae
-     13 Octodontidae
-      1 Odobenidae
-      1 Ornithorhynchidae
-      1 Orycteropodidae
-     15 Otariidae
-      2 Pedetidae
-     18 Peramelidae
-     11 Petauridae
-      1 Petromuridae
-     26 Phalangeridae
-      1 Phascolarctidae
-     18 Phocidae
-      8 Phocoenidae
-    172 Phyllostomidae
-      3 Physeteridae
-     43 Pitheciidae
-      2 Platacanthomyidae
-      1 Platanistidae
-      8 Potoroidae
-      2 Prionodontidae
-      5 Procaviidae
-     14 Procyonidae
-     18 Pseudocheiridae
-    183 Pteropodidae
-      1 Ptilocercidae
-      5 Rhinocerotidae
-     74 Rhinolophidae
-      4 Rhinopomatidae
-    279 Sciuridae
-      2 Solenodontidae
-    376 Soricidae
-     21 Spalacidae
-     18 Suidae
-      4 Tachyglossidae
-     41 Talpidae
-      4 Tapiridae
-     10 Tarsiidae
-      1 Tarsipedidae
-      4 Tayassuidae
-     33 Tenrecidae
-      2 Thryonomyidae
-      1 Thylacomyidae
-      4 Thyropteridae
-     10 Tragulidae
-      3 Trichechidae
-     19 Tupaiidae
-      8 Ursidae
-    421 Vespertilionidae
-     33 Viverridae
-      3 Vombatidae
-     21 Ziphiidae
+~/Desktop/CSB/unix/data$ cut -d ';' -f 2 Pacifici2013_data.csv | head -n 6 | tail -n +2 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt
+
+Question 2
+
+Abrocomidae
+Acrobatidae
+Ailuridae
+Anomaluridae
+Antilocapridae
+Aotidae
+Aplodontiidae
+Atelidae
+Balaenidae
+Balaenopteridae
+Bathyergidae
+Bovidae
+Bradypodidae
+Burramyidae
+Caenolestidae
+Callitrichidae
+Calomyscidae
+Camelidae
+Canidae
+Capromyidae
+Castoridae
+Caviidae
+Cebidae
+Cercopithecidae
+Cervidae
+Cheirogaleidae
+Chinchillidae
+Chrysochloridae
+Craseonycteridae
+Cricetidae
+Ctenodactylidae
+Ctenomyidae
+Cuniculidae
+Cyclopedidae
+Cynocephalidae
+Dasypodidae
+Dasyproctidae
+Dasyuridae
+Daubentoniidae
+Delphinidae
+Diatomyidae
+Didelphidae
+Dinomyidae
+Dipodidae
+Dugongidae
+Echimydae
+Echimyidae
+Elephantidae
+Emballonuridae
+Equidae
+Erethizontidae
+Erinaceidae
+Eschrichtiidae
+Eupleridae
+Felidae
+Furipteridae
+Galagidae
+Geomyidae
+Giraffidae
+Gliridae
+Herpestidae
+Heteromyidae
+Hippopotamidae
+Hipposideridae
+Hominidae
+Hyaenidae
+Hylobatidae
+Hypsiprymnodontidae
+Hystricidae
+Indriidae
+Iniidae
+Lemuridae
+Lepilemuridae
+Leporidae
+Lorisidae
+Macropodidae
+Macroscelididae
+Manidae
+Megadermatidae
+Megalonychidae
+Mephitidae
+Microbiotheriidae
+Molossidae
+Monodontidae
+Mormoopidae
+Moschidae
+Muridae
+Mustelidae
+Myocastoridae
+Myrmecobiidae
+Myrmecophagidae
+Mystacinidae
+Myzopodidae
+Nandiniidae
+Natalidae
+Neobalaenidae
+Nesomyidae
+Noctilionidae
+Notoryctidae
+Nycteridae
+Ochotonidae
+Octodontidae
+Odobenidae
+Ornithorhynchidae
+Orycteropodidae
+Otariidae
+Pedetidae
+Peramelidae
+Petauridae
+Petromuridae
+Phalangeridae
+Phascolarctidae
+Phocidae
+Phocoenidae
+Phyllostomidae
+Physeteridae
+Pitheciidae
+Platacanthomyidae
+Platanistidae
+Potoroidae
+Prionodontidae
+Procaviidae
+Procyonidae
+Pseudocheiridae
+Pteropodidae
+Ptilocercidae
+Rhinocerotidae
+Rhinolophidae
+Rhinopomatidae
+Sciuridae
+Solenodontidae
+Soricidae
+Spalacidae
+Suidae
+Tachyglossidae
+Talpidae
+Tapiridae
+Tarsiidae
+Tarsipedidae
+Tayassuidae
+Tenrecidae
+Thryonomyidae
+Thylacomyidae
+Thyropteridae
+Tragulidae
+Trichechidae
+Tupaiidae
+Ursidae
+Vespertilionidae
+Viverridae
+Vombatidae
+Ziphiidae
+There are 152 unique families
+
+Question 3
+
+ 1243  cd Desktop
+ 1244  cd CSB
+ 1245  cd unix
+ 1246  cd data
+ 1247  cd sandbox
+ 1248  ls
+ 1249  cd ..
+ 1250  cd sandbox
+ 1251  tail -n +2 ../data/Pacifici2013_data.csv 
+ 1252  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6
+ 1253  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' 
+ 1254  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6
+ 1255  tail -n +2 ../data/Pacifici2013_data.csv | cut -d ';' -f 2-6 | tr -s ';' ' ' | sort -r -n -k 6 > BodyM.csv
+ 1256  history >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
+ 1257  history 15 >> ~/Desktop/eeb-177/homework/week-2-hw-eeb177.txt 
