@@ -1,0 +1,33 @@
+Question 1
+1) Individuals 3 were recorded 61 times and individuals 27 were recorded 5 times.
+2) cut -f 1 Gesquiere2011_data.csv | grep -c -w 27
+3) 
+#!/bin/bash
+myIDS= 'tail -n +2 ../data/Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq'
+for id in $myIDS
+do
+    mycounts='bash counting_baboons.sh ../data/Gesquiere2011_data.csv $id'
+    echo "ID:" $id "counts:"$mycounts
+done
+
+Question 2 (??)
+#!/bin/bash
+
+echo "Filename:"
+echo $1
+echo "Number of rows:"
+cat $1 | wc -l
+echo "Number of columns:"
+head -n 1 $1 | tr -d ' ' | tr -d '\n' | wc -c
+
+FILES=../data/Saavedra2013/*.txt
+for f in $files
+do
+    myrow='cat $f | wc -l'
+    mycol='head -n 1 $f | tr -d ' ' | tr -d '\n' | wc -c'
+echo $f $myrow $mycol
+done
+
+3) file n58.txt has the largest # of rows (using sort -n -r -k 2 | head -n 1
+file n56.txt has the largest number of columns (using sort -n -r -k 3 | head -n 1
+
